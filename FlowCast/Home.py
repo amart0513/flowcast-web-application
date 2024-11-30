@@ -248,7 +248,7 @@ with tab1:
     )
 
 with tab2:
-    st.image(IMAGE1, caption="The Heron collecting data from the FIU lake by Parking Garage 6 (PG-6).", use_column_width=True)
+    st.image(IMAGE1, caption="The Heron collecting data from the FIU lake by Parking Garage 6 (PG-6).", use_container_width=True)
 
 st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
 
@@ -273,7 +273,7 @@ with tab3:
 
 with tab4:
     st.image(IMAGE2, caption="Our boat being prepared for a Biscayne Bay mission to collect data and provide updates "
-                             "on the quality of the ocean.", use_column_width=True)
+                             "on the quality of the ocean.", use_container_width=True)
 
 st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
 st.markdown('</div>', unsafe_allow_html=True)
