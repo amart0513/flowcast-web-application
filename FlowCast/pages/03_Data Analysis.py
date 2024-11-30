@@ -5,7 +5,7 @@ import plotly.express as px
 # Page Configuration
 st.set_page_config(page_title="FlowCast: Data Analysis", layout="wide", page_icon="🌊")
 
-# Custom CSS for Consistent Banner, Subtitles, and Monospace Font
+# Custom CSS for Consistent Banner, Subtitles
 st.markdown(
     """
     <style>
